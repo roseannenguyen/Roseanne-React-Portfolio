@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+@media(max-width:768px){
+    .navbar-nav {
+      width: 7rem;
+    }
+}
 :root {
   --primary-white: #fff;
   --primary-green: #1F6566;
@@ -8,6 +13,10 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  z-index: 2;
 }
 /***NAVBAR***/
 .logo {
