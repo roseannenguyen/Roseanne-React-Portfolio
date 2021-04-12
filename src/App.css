@@ -2,36 +2,10 @@
 
 :root {
   --primary-white: #fff;
-  --primary-green: 
+  --primary-green: #1F6566;
+  --primary-dark: rgba(255,255,255,0);
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-}
-/***NAVBAR***/
-.logo {
-  width: 3.5rem;
-}
-
-/* MENU LINKS */
-nav a.nav-link {
-  letter-spacing: 0.04rem;
-  cursor: pointer;
-}
-
-.navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  color: var(--primary-white) !important;
-}
-
-.navbar-brand {
-  max-width: 17.25rem;
-  padding: 3 !important;
-  /* height: 6rem !important; */
-}
-
-.navbar-nav > li > a.active, .navbar-nav > li > a.active.focus {
-  border-top: 0.0375rem;
-
 }
