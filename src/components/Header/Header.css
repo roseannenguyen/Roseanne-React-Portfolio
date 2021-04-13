@@ -38,6 +38,7 @@
 .main-info h1 {
     color: white;
     text-transform: uppercase;
+    font-weight: 200;
 }
 
 .typed-text {

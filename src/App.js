@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from 'react-particles-js';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio'
 
 function App() {
   return (
@@ -30,8 +32,10 @@ function App() {
         }
       }}/>
     <Navbar />
+    
     <Header />
-
+      <About />
+      <Portfolio />
     </>
   );
 }
