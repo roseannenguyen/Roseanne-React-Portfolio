@@ -5,7 +5,8 @@ import Particles from 'react-particles-js';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import About from './pages/About';
-import Portfolio from './pages/Portfolio'
+import Portfolio from './pages/Portfolio';
+import Footer from './components/Footer/index';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
     <Header />
       <About />
       <Portfolio />
+    <Footer />
     </>
   );
 }
